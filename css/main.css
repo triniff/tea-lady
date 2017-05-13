@@ -25,7 +25,6 @@ header img {
 }
 
 section {
-	color: #828750;
 	font-family: 'Roboto', sans-serif;
 	margin: 50px;
 }
@@ -33,14 +32,17 @@ section {
 #formulario input {
 	display: block;
 	margin-bottom: 10px;
-
 }
-
+#option {
+	color: #808080;
+	font-family: 'Roboto', sans-serif;
+}
 #newsletter input{
 	float: left;
 }
 
 #formulario {
+	color: #606060;
     width: 550px;
     padding: 50px;
     position: relative;
@@ -51,8 +53,16 @@ section {
         inset 0 1px rgba(255,255,255,1),
         inset 0 -3px 2px rgba(0,0,0,0.25);
     border-radius: 5px;
-    background: linear-gradient(#eeefef, #EAEAEA 10%);
+    background: linear-gradient(#eeefef, #FFFFFF 10%);
 
+}
+
+#formulario label {
+	font-size: 15px;
+}
+
+#texto {
+	font-size: 18px;
 }
 
 .btn {
@@ -75,6 +85,11 @@ section {
 
 #clientes {
 	float: left;
-	color: #659E27;
 	font-size: 20px;
+	color: #659E27;
+}
+#clientes img {
+	float: left;
+	width: 600px;
+	margin-top: 100px;
 }
